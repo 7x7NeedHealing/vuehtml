@@ -204,11 +204,9 @@ export default {
   methods:{
     changeLeftpic(){
       if(parseInt(this.$refs.ulPic.style.left)<=-2448){
-        console.log('2')
         this.$refs.ulPic.style.left =(0).toString()+'px';
       }
       else {
-        console.log('1')
         this.$refs.ulPic.style.left = (parseInt(this.$refs.ulPic.style.left)-306+"px").toString();
       }
     },

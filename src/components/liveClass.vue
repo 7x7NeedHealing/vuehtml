@@ -228,7 +228,6 @@ export default {
 </script>
 
 <style scoped>
-
 .trainHead{
   position: relative;
   width: 1200px;

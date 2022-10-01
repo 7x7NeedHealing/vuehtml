@@ -222,7 +222,7 @@ export default {
     }
   },
   mounted() {
-    // setInterval(this.changeRightpic,3000);
+    setInterval(this.changeRightpic,3000);
   }
 }
 </script>

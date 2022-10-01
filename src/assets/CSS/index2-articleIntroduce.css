@@ -1,0 +1,206 @@
+.index2-introduce{
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  height: 1750px;
+  background-color: #f6f9f9;
+  border-radius: 5px;
+}
+.index2-introduceLeft{
+  width: 865px;
+  height: 1750px;
+  padding-left: 30px;
+  background-color: white;
+  border-radius: 10px;
+}
+.index2-introduceLeftheader{
+  display: flex;
+  align-items: center;
+  width: 865px;
+  height: 94px;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.index2-introduceLeftheader>ul>li{
+  display: inline-block;
+  width: 90px;
+  height: 35px;
+  text-align: center;
+  border-radius: 10px;
+  margin-right: 45px;
+}
+
+.index2-introduceLeftheader>ul>li>a{
+  display: block;
+  width: 90px;
+  height: 35px;
+  line-height: 35px ;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #555555;
+}
+.index2-introduceLeftheader>ul>li>a:hover{
+  color: white;
+  background-color: #29b8f7;
+}
+
+.index2-introduceLeftfooter{
+  width: 865px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.index2-introduceLeftfooterContent{
+  width: 310px;
+  height: 30px;
+}
+.index2-introduceLeftfooterContent>ul{
+  display: flex;
+  justify-content: space-between;
+}
+.index2-introduceLeftfooterContent>ul>li{
+  display: block;
+  width: 30px;
+  height: 28px;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 3px;
+}
+.index2-introduceLeftfooterContent>ul>li>a{
+  display: block;
+  font-size: 15px;
+  width: 30px;
+  height: 30px;
+  line-height: 28px;
+  text-align: center;
+  color: #a0a0a1;
+}
+.index2-introduceLeftfooterContent>ul>li>a:hover{
+  background-color: #29b8f7;
+  color: white;
+}
+.index2-introduceRight{
+  width: 265px;
+  height: 625px;
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+.index2-introduceRight-title{
+  height: 55px;
+  width: 265px;
+  line-height: 55px;
+  font-size: 25px;
+  color: #29b8f7;
+}
+.index2-introduceRight-middle{
+  width: 265px;
+  height: 240px;
+}
+.index2-introduceRight-middle>ul>li{
+  display: block;
+  width: 265px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+/*.index2-introduceRight-middle>ul>li>a>i{
+  display: inline-block;
+  width: 80px;
+  height: 60px;
+}
+.index2-introduceRight-middle>ul>li>a>div{
+  display: inline-block;
+  width: 175px;
+  height: 60px;
+}*/
+.introduceRight-content{
+  display: block;
+  width: 265px;
+  height: 60px;
+}
+.introduceRight-content>i{
+  display: inline-block;
+  width: 80px;
+  height: 60px;
+  background-size: 80px 60px;
+  margin-right: 10px;
+  vertical-align: bottom;
+
+}
+.introduceRight-content>div{
+  display: inline-block;
+  width: 175px;
+  height: 60px;
+  vertical-align: bottom;
+}
+.introduceRight-content>div>div>a{
+  font-size: 16px;
+  font-weight: bold;
+  color: #555555;
+}
+.introduceRight-content>div>div>a:hover{
+  color: #29b8f7;
+}
+.introduceRight-contentstar>ul{
+  display: inline-block;
+  vertical-align: middle;
+}
+.introduceRight-contentstar>ul>li{
+  display: inline-block;
+  background-size: 10px;
+  width: 10px;
+  height: 10px;
+}
+.introduceRight-contentstar>span{
+  font-size: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  color: #fcc55b;
+  margin-left: 10px;
+}
+.introduceRight-content>div>div>span{
+  display: block;
+  font-size: 10px;
+  color: #a0a0a1;
+}
+.index2-introduceRight-bottom{
+  width: 265px;
+  height: 330px;
+}
+.index2-introduceRight-bottom>ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 330px;
+}
+.index2-introduceRight-bottom>ul>li{
+  display: block;
+  height: 20px;
+  margin-bottom: 20px;
+}
+.index2-introduceRight-bottom>ul>li>a>span{
+  display: inline-block;
+}
+.index2-introduceRight-bottomtitle{
+  width: 130px;
+  height: 20px;
+  font-size: 15px;
+  line-height: 20px;
+  color: #333333;
+}
+.index2-introduceRight-bottomtitle:hover{
+  color: #29b8f7;
+}
+.index2-introduceRight-bottomcomment{
+  width: 75px;
+  height: 20px;
+  font-size: 10px;
+  line-height: 20px;
+  color: #29b8f7;
+}
+.index2-introduceRight-bottomnice{
+  width: 60px;
+  height: 20px;
+  font-size: 10px;
+  line-height: 20px;
+  color: #fcc55b;
+}

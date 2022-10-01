@@ -221,7 +221,6 @@ export default {
         this.$refs.ulPic.style.transition = 'none';
         this.$refs.ulPic.style.left = (-2142).toString() + 'px';
       }
-
     }
   },
   mounted() {
